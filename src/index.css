@@ -1,13 +1,56 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+  --dark: #303840;
+  --ag-one: #140152;
+  --ag-two: #0D00A4;
+  --ag-three: #0D00A4;
+  --ag-four: #020887;
+  --fg-one: #0C1B33;
+  --fg-two: #114B5F;
+  --fg-three: #8E94F2;
+  --fg-four: #9FA0FF;
+  --fg-five: #473198;
+  --fg-six: #14453D;
+  --fg-seven: #07393C;
+  --fg-eight: #0097b2;
+  --fg-nine:  #5567ff;
+  --fg-ten: #272c33b3;
+  --bg-one: #3D7068;
+  --bg-two: #43C59E;
+  --bg-three: #C1F7DC;
+  --bg-four: #20A4F3;
+  --bg-five: #2EC4B6;
+  --bg-six: #011627;
+  --bg-seven: #028090;
+  --bg-eight: #D80032;
+  --bg-nine: #EF233C;
+  --bg-ten: #DEDEDE;
+  --cg-one: #e9edf2;
+  --cg-two: #F6F7F8;
+  --cg-three: #EFF0D1;
+  --cg-four: #12130F;
+  --cg-five: #EDEDF4;
+  --cg-six: #FEFEFF;
+  --cg-seven: #FFFBFF;
+  --cg-eight: #F0EDEE;
+  --cg-nine: #ffffffb2;
+  --cg-ten: #0DAA8C;
+  --font-one:  "Roboto", sans-serif;
+  --font-two: "Poppins", sans-serif;
+  --font-three: "Orbitron", sans-serif;
+  --font-four:  "Montserrat", sans-serif;
+  --font-five:  "Playfair Display", serif;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  margin: 0px ;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  width: 100%;
+  min-height: 1000vh;
+  background-color: var(--cg-one);
 }

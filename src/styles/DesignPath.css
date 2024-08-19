@@ -1,0 +1,17 @@
+.designpath_head h2{
+  color: var(--dark);
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: var(--font-four);
+  text-transform: uppercase;
+  position: relative;
+}
+.designpath_head h2::before{
+  position: absolute;
+  content: '';
+  width: 85%;
+  height: 1px;
+  background-color: #10101039;
+  top: 50%;
+  right: 0;
+}
