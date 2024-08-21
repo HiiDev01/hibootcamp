@@ -1,3 +1,6 @@
+.designpath_head{
+  margin: 0px 0px 20px 0px;
+}
 .designpath_head h2{
   color: var(--dark);
   font-size: 1rem;
@@ -14,4 +17,110 @@
   background-color: #10101039;
   top: 50%;
   right: 0;
+}
+
+.design_path_con{
+  width: 100%;
+  padding: 3% 5%;
+}
+.designpath_content{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.design_cont{
+  width: calc(100%/4);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ffffff;
+  padding: 0px 0px 10px 0px;
+  box-shadow: 0px 0px 1px var(--dark);
+}
+.design_img_con{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.design_img_con::before{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.design_img_con img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.design_cor_det{
+  width: 100%;
+}
+.design_cor_txt{
+  width: 100%;
+  padding: 1px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.design_cor_txt h2{
+  font-family: var(--font-two);
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--fg-ten);
+  text-transform: capitalize;
+  line-height: 1r;
+}
+.design_cor_txt button{
+  background-color: transparent;
+  border: none;
+}
+.desig_icon{
+  font-size: 1.1rem;
+  font-weight: 300;
+  font-family: var(--font-one);
+  cursor: pointer;
+}
+.desig_icon:hover {
+  color: red;
+}
+.design_fav_btn.favorited .desig_icon {
+  color: var(--fg-nine);
+}
+.desig_author{
+  color: var(--bg-nine);
+  font-family: var(--font-one);
+  font-weight: 500;
+  font-size: 0.8rem;
+  padding: 0px 10px;
+}
+.rating_wrap{
+  padding: 0px 10px 10px 10px;
+  border-bottom: 1px solid #6b6b6b5f;
+}
+.duratio_con{
+  width: 100%;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.duratio_con p{
+  font-size: 0.8rem;
+  color: var(--fg-ten);
+  font-weight: 500;
+  font-family: var(--font-one);
+  text-transform: capitalize;
+  font-style: normal;
+}
+.duratio_con span{
+  font-size: 0.8rem;
+  color: var( --bg-nine);
+  margin: 0px 4px 0px 0px;
+  font-weight: 300;
 }

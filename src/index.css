@@ -23,7 +23,7 @@
   --bg-six: #011627;
   --bg-seven: #028090;
   --bg-eight: #D80032;
-  --bg-nine: #EF233C;
+  --bg-nine: #272c3380;
   --bg-ten: #DEDEDE;
   --cg-one: #e9edf2;
   --cg-two: #F6F7F8;
@@ -53,4 +53,7 @@ body{
   width: 100%;
   min-height: 1000vh;
   background-color: var(--cg-one);
+}
+.slick-slide > div{
+  margin: 0px 20px 0px 0px;
 }

@@ -31,10 +31,11 @@
 /*
 .path_icon{
   font-size: 1.1rem;
-  color: var(--fg-ten);
   font-weight: 300;
   font-family: var(--font-one);
-}*/
+}
+*/
+
 .path_link{
   display: flex;
   align-items: center;

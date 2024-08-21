@@ -5,6 +5,7 @@ import Jsimg from '../assets/Images/js.png';
 import Navbar from './Navbar';
 import Path from './Path';
 import DesignPath from './DesignPath';
+import Testimonial from './Testimonial';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faYoutube } from '@fortawesome/free-brands-svg-icons/faYoutube';
 import { faFolder } from '@fortawesome/free-regular-svg-icons';
@@ -153,6 +154,14 @@ const Home = () => {
         </div>
         <div className="design_path_con">
            <DesignPath></DesignPath>
+        </div>
+
+        <div className="feedBk_con">
+          <div className="feedback_head">
+            <h2>Feedback</h2>
+            <p>What other students turned professionals have to say about us after learning with us and reaching their goals.</p>
+          </div>
+          <Testimonial></Testimonial>
         </div>
       </div>
     </div>

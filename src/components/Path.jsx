@@ -35,13 +35,13 @@ const courses =[
     number: "23 courses"
   },
   {
-    name:"React for Beginner",
+    name:"Vuejs for Beginner",
     link: "#",
     img: vueimg,
     number: "25 courses"
   },
   {
-    name:"React for Beginner",
+    name:"Angular for Beginner",
     link: "#",
     img: angularimg,
     number: "38 courses"
