@@ -85,3 +85,42 @@
   font-weight: 400;
   color: var(--fg-ten);
 }
+@media (max-width: 1020px) {
+  .path {
+    grid-template-columns: repeat(2, 1fr); /* Change to 2 columns */
+  }
+  .path_cs {
+    padding: 8px 8px;
+  }
+  .path_p_one {
+    font-size: 0.9rem;
+  }
+  .path_p_two {
+    font-size: 0.7rem; 
+  }
+}
+
+/* Responsive at 780px */
+@media (max-width: 780px) {
+  .path {
+    grid-template-columns: 1fr; /* Change to 1 column */
+    gap: 15px; 
+  }
+  .path_cs {
+    padding: 6px 6px;
+  }
+  .path_p_one {
+    font-size: 0.8rem;
+  }
+  .path_p_two {
+    font-size: 0.6rem;
+  }
+  .path_cs_imgCon {
+    width: 30px;
+    height: 30px;
+  }
+  .path_cs_imgCon img {
+    width: 70%;
+    height: 70%;
+  }
+}

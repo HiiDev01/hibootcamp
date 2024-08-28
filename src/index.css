@@ -49,11 +49,35 @@
 html{
   scroll-behavior: smooth;
 }
+html::-webkit-scrollbar{
+  display: none;
+}
 body{
   width: 100%;
-  min-height: 1000vh;
+  min-height: 100vh;
   background-color: var(--cg-one);
 }
 .slick-slide > div{
   margin: 0px 20px 0px 0px;
+}
+.slick-next{
+  background-color: var(--fg-nine);
+}
+.slick-slide > button{
+  background-color: var(--fg-nine) !important;
+  padding: 10px;
+}
+.slick-prev:before, .slick-next:before{
+  color: var(--fg-nine) !important;
+}
+/*.slick-dots >.slick-active{
+  background-color: var(--fg-nine);
+  border-radius: 50%;
+}*/
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: #5567ff !important;
+}
+.slick-slider{
+  padding: 0px 0px 0px 0px;
 }

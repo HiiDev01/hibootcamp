@@ -37,7 +37,7 @@ const designCourse = [
     image: figma,
     caption: 'learn figma',
     author: 'Hisaac Brown',
-    time: '3.5hours',
+    time: '3hours',
     lesson: '15 lessons',
     id: 4
   }

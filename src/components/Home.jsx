@@ -6,17 +6,19 @@ import Navbar from './Navbar';
 import Path from './Path';
 import DesignPath from './DesignPath';
 import Testimonial from './Testimonial';
+import Footer from './Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faYoutube } from '@fortawesome/free-brands-svg-icons/faYoutube';
 import { faFolder } from '@fortawesome/free-regular-svg-icons';
 import { faClock, faShield, faEye, faArrowUpRightFromSquare} from '@fortawesome/free-solid-svg-icons';
 
+
 const Home = () => {
   return (
     <div className='home'>
       <div className="home_container">
+        <Navbar></Navbar>
         <div className="home_header">
-          <Navbar></Navbar>
           <div className="home_overlay"></div>
           <video src={Hvid} autoPlay loop muted></video>
           <div className="home_content">
@@ -164,6 +166,7 @@ const Home = () => {
           <Testimonial></Testimonial>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   )
 }

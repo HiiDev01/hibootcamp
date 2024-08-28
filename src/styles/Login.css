@@ -1,0 +1,215 @@
+.login_wrap{
+
+}
+.login_con{
+  width: 100%;
+  min-height: 40vh;
+  padding: 10% 0px 2% 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login_content{
+  width: 35%;
+}
+.login_popup{
+  width: 100%;
+  background-color: #0a6c0a;
+  color: #fff;
+  font-family: var(--font-one);
+  font-weight: 400;
+  text-transform: capitalize;
+  padding: 10px;
+  font-size: 1rem;
+}
+.email_con{
+  width: 100%;
+  margin: 0px 0px 15px 0px;
+}
+.email_con label,
+.password_con label{
+  width: 100%;
+  display: block;
+  font-size: 1rem;
+  color: var(--fg-ten);
+  font-weight: 500;
+  font-family: var(--font-two);
+  margin: 0px 0px 5px 0px;
+}
+.email_con input, .password_con input{
+  width: 100%;
+  padding: 10px 10px;
+  background-color: #fff;
+  border: none;
+  box-shadow: 0px 0px 1px var(--bg-nine);
+  border-radius: 3px;
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: var(--font-one);
+}
+.email_con input:focus, .password_con input:focus{
+  outline: 1px solid var(--fg-nine);
+}
+::placeholder{
+  text-transform: none;
+  font-size: 0.8rem;
+}
+.forget_para{
+  width: 100%;
+  text-align: right;
+  font-family: var(--font-one);
+  font-weight: 400;
+  font-size: 0.8rem;
+  padding: 2px 0px;
+  margin: 0px 0px 15px 0px;
+}
+.forget_para a{
+  text-transform: capitalize;
+  color: var(--fg-nine);
+}
+.error_para{
+  width: 100%;
+  font-size: 0.8rem;
+  color: var(--bg-eight);
+  text-align: center;
+  font-weight: 300;
+  font-family: var(--font-one);
+  margin: 0px 0px 2px 0px;
+}
+.login_btn_para{
+  width: 100%;
+  text-align: center;
+}
+.login_btn{
+  padding: 8px 15px;
+  font-size: 0.9rem;
+  color: #fff;
+  font-family: var(--font-two);
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 3px;
+  background-color: var(--fg-nine);
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.login_btn:hover{
+  opacity: 0.9;
+}
+.other_login_opt{
+  width: 100%;
+  text-align: center;
+  padding: 1% 0px 5% 0px;
+}
+.otherlog_opt_head{
+  margin: 0px 0px 20px 0px;
+}
+.otherlog_opt_head h2{
+  color: var(--dark);
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: var(--font-four);
+  text-transform: uppercase;
+  position: relative;
+}
+.otherlog_opt_head h2::before{
+  position: absolute;
+  content: '';
+  width: 40%;
+  height: 1px;
+  background-color: #10101039;
+  top: 50%;
+  right: 0;
+}
+.otherlog_opt_head h2::after{
+  position: absolute;
+  content: '';
+  width: 40%;
+  height: 1px;
+  background-color: #10101039;
+  top: 50%;
+  left: 0;
+}
+.log_opt_con{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 1% 0px 5% 0px;
+}
+.log_opt_con a{
+  cursor: pointer;
+}
+.facebook_btn{
+  background-color: #3b5998;
+  padding: 12px 15px;
+  font-family: var(--font-one);
+  color: var(--bg-ten);
+  font-weight: 400;
+  text-transform: capitalize;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+}
+.facebook_btn:hover{
+  opacity: 0.9;
+}
+.fb_logo{
+  width: 30px;
+  height: 30px;
+  background-image: url(/src/assets/Images/facebook.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px 10px 0px 0px;
+}
+.google_btn{
+  background-color: #EA4335;
+  padding: 12px 15px;
+  font-family: var(--font-one);
+  color: var(--bg-ten);
+  font-weight: 400;
+  text-transform: capitalize;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+}
+.google_btn:hover{
+  opacity: 0.9;
+}
+.gog_logo{
+  width: 30px;
+  height: 30px;
+  background-image: url(/src/assets/Images/google.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px 10px 0px 0px;
+}
+@media (max-width: 1020px) {
+  .login_content {
+    width: 50%;
+  }
+  .log_opt_con {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .login_con{
+    padding: 20% 0px 5% 0px;
+  }
+}
+
+/* For 780px and below */
+@media (max-width: 780px) {
+  .login_content {
+    width: 80%;
+  }
+  .log_opt_con {
+    gap: 10px;
+    padding: 0px 10%;
+  }
+  .facebook_btn, .google_btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

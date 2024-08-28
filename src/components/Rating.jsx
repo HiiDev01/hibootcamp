@@ -24,10 +24,11 @@ const Rating = () => {
     grey: "#808080"
   }
   return (
-    <div>
+    <div >
       {stars.map((_, index)=>{
         return(
           <FontAwesomeIcon 
+            key={index}
             icon={faStar} 
             color={(currentRating || hoverRating)> index ? colors.orange : colors.grey}
             onClick={()=>handleRatingClick(index + 1)}
